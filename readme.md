@@ -572,6 +572,29 @@ cpm
  are stored at: /var/www/html/err.channels.txt
 ```
 
+I put all the extra crap in the channel.txt do demonstrate the need for good checks and filtering.
+In this example the apache user account is limited to its own directory permissions and associated group users(you hope none).
+Even so, a command injected did result in a ls of the servers root directory. You can imagine how this could go wrong fast
+if you were using too many permissions with the apache account.
+
+What can we do?
+Many say... stop using shell scripts. FOOEY. Shell scirpts are going no where, just getting better!
+
+We start by only using the exact input we need and filter all the rest. Its obv by my example that I have not filtered all the rest completely, or a ls would not
+have gotten through.
+
+
+What else to do?
+If its a server enabled SELINUX or DEBIAN EQUIV extended process control and management.
+
+
+What else?
+Always be on guard against what we assume the apache user account can and can NOT do.
+
+When is shell's job done here? For me, if I can convert it a a simple C program, it is then done. I'm not going to rewrite it higher up the tree, but lower.
+This is about the methods and algorythms to be learned using bash, no about using bash for some silly long term goal with questional security.
+
+Yes, some people still prototype with SHELL and YET are still neopyhitic in general with regards to software.
 
 
 
