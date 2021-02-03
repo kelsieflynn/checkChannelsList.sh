@@ -9,6 +9,15 @@ Shell scripts are not a real(tm) as in  (well structured and extensive programmi
 perl/python/php
 
 
+What does this mean exactly?
+If your not careful:
+Shell scripts can/will break your box or even get you fired and then some other person that knows shell scripts will replace you!
+
+
+
+
+
+
 checkChannelsList.sh contents
 ```
 #!/bin/bash
