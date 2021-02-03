@@ -13,8 +13,8 @@ What does this mean exactly?
 If your not careful:
 Shell scripts can/will break your box or even get you fired and then some other person that knows shell scripts will replace you!
 
-
-
+Meanwhile, either the big 3 P, will hold your hand so much better!
+You can be naive but don't be stupid!
 
 
 
