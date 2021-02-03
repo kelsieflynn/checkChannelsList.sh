@@ -2,6 +2,30 @@ Simple script that checks channel values against a hdhr device for validity usin
 
 For educational purposes only!
 
+
+*UPDATED:
+Want to have some real fun with this? 
+Add a channels.txt file with channel values populated starting with:
+
+```
+1.1
+1.2
+...
+and go all the way up to 
+...
+99.99
+```
+Then point the script to it.
+*See how long it takes and how many channels you get compared to a normal HDHR scan.
+
+What your doing is scanning almost every reasonbly logical virtual channel available and programatically writing out the good ones*
+to one file and errored or non-existent ones to another.
+
+*good ones just a simple good old fashioned ffprobe check
+
+
+
+
 Do not use this unless your comfortable with shell scripts.
 
 Pure NeoPhytes be warned!
