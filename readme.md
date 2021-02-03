@@ -86,6 +86,15 @@ printf  "Your ERRORED channels:\n $(<$ERRCHANNELS)\n are stored at: $ERRCHANNELS
 ```
 
 
+Using the very poorly formated channels.txt file. Check check its values against a hdhr server. If the channel returns good
+we add it to the good.channels.txt file, if errored we add it too the err.channels.txt file.
+
+Here is the output when run, from log.
+
+```
 
 
+
+
+I created this small snippet to use with another project.
 
