@@ -50,9 +50,12 @@ elif [ -e $ERRCHANNELS ];then
 	touch $ERRCHANNELS
 	printf "\n\n"
 
-elif [ ! -e $ERRCHANNELS||$GOODCHANNELS ];then
-	echo "No existing Channel lists, creating new"
+elif [ ! -e $ERRCHANNELS ];then
+	echo "No existing error Channel list, creating new"
 	touch $ERRCHANNELS
+
+elif [ ! -e $GOODCHANNELS ];then
+	echo "No existing Good Channel list, creating new"
 	touch $GOODCHANNELS
 
 else	
