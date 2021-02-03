@@ -31,9 +31,9 @@ Then point the script to it.
 
 What your doing is scanning almost every reasonbly logical virtual channel available and programatically writing out the good ones*
 to one file and errored or non-existent ones to another.
-
-*good ones just a simple good old fashioned ffprobe check
-
+<small><i>
+*"good ones",  basic verification using just good old fashioned ffprobe check
+	</small></i>
 
 
 
