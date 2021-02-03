@@ -639,7 +639,7 @@ What else?
 Always be on guard against what we assume the apache user account can and can NOT do.
 
 When is shell's job done here? For me, if I can convert it a a simple C program, it is then done. I'm not always going to rewrite it higher up the tree, but lower.
-This is about the methods and algorythms to be learned using bash, no about using bash for some silly long term goal with questional security.
+This is about the methods and algorythms to be learned using bash, no about using bash for some silly long term goal using exclusive shell and questionable security.
 
 Yes, some people still prototype with SHELL and YET are still neopyhitic in general with regards to software.
 
