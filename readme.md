@@ -14,7 +14,18 @@ Add a channels.txt file with channel values populated starting with:
 and go all the way up to 
 ...
 99.99
+
 ```
+Something like this will create the base channels.txt
+This will have leading and trailing 0's in some but a good start. You can use bash parameter substitution to trim it 
+or tr/sed other program to filter more out.
+```
+for digit in $(echo {0..9}{0..9}.{0..9}{0..9});do echo $digit;done>>channels.txt
+```
+
+
+
+
 Then point the script to it.
 *See how long it takes and how many channels you get compared to a normal HDHR scan.
 
