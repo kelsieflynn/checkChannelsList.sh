@@ -23,7 +23,7 @@ or tr/sed other program to filter more out.
 for digit in $(echo {0..9}{0..9}.{0..9}{0..9});do echo $digit;done>>channels.txt
 ```
 
-*In reality, in US most channels will be found on RF2-51 and likely only use the first 9 virtual channel slots. So you could narrow it down to a range of:
+*In reality, in US most ATSC channels will be found on RF2-51 and likely only use the first 9 virtual channel slots. So you could narrow it down to a range of:
 
 2.1--->51.9 and probably find most avail. Start with below and then trim off leading zeros/ones.
 ```
