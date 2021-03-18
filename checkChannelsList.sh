@@ -19,7 +19,7 @@ fi
 HDHR_IP="192.168.168.2"
 HDHR_TUNER="tuner1"
 
-#location of channels.txt file previously downloaded/parsed 
+#location of channels.txt file previously downloaded
 CHANNELS=/var/www/html/channels.txt
 
 #where we store the err/good channels seperate
